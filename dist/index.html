@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>React Project</title>
+        <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width"/>
+	<meta name="theme-color" content="#000000"/>
+    </head>
+    <body>
+	<style>
+	:root{
+	--background: #f3f3f3;
+	--color: #000d0d;
+	--fixSize: #250px;
+	--card: column;
+	--container: flex;
+	--main-position: center;
+	}
+	</style>
+        <div id="app"></div>
+        <script encoding="UTF-8" src="./bundle.js">
+	</script>
+	
+	<style encoding="UTF-8">
+	body{
+	/*background: var(--color);*/
+	display: var(--container);
+	flex-direction: var(--card);
+	align-items: var(--main-position);
+	}
+	</style>
+    </body>
+</html>
