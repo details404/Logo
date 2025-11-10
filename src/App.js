@@ -12,7 +12,7 @@ return(
 <>
 <div id="msg"></div>
 
-<img src="/images/appleLogo.png" style={Img}/>
+<img src="./images/appleLogo.png" style={Img}/>
 </>
 );
 }
